@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Hello Static Resource 2
+
+<!--웹자르 의존성을 추가했을경우 사용가능-->
+<!--버전을 따로 입력하지 않아도 되는 webjars Locator Core 를 dependency 로 등록하면 버전을 명시안해도 사용가능함-->
+<script src="/webjars/jquery/dist/jquery.min.js"></script>
+<script>
+    $(function() {
+        alert("test");
+    });
+</script>
+</body>
+</html>
